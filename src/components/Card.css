@@ -1,0 +1,33 @@
+.main-container{
+    width:16rem;
+    height:17rem;
+    border: solid black 1px;
+    border-radius: .7rem;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #EEF7FF;
+    box-shadow: 10px 10px lightblue;  
+}
+.main-container:hover{
+    box-shadow: 10px 10px rgb(197, 221, 229);
+}
+.category{
+    margin-bottom: 2rem;
+    color: #5a57a1;
+}
+.setup{
+    margin-bottom: 2rem;
+    color:#135D66;
+}
+button{
+    padding: 1rem;
+    border-radius: .4rem;
+    border: none;
+    background-color: #6563a1;
+    color:white
+}
+button:hover{
+    background-color: #8483ba;
+    box-shadow: inset;
+}

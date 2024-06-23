@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home-container{
+   background-color: #CDE8E5;
+}
+.heading{
+    padding: 2rem;
+    text-align: center;
+    color: #5a57a1;
+}
+.home-input{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+
+input{
+    width:50vw;
+    border-radius:0.5rem ;
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    box-shadow: 5px 5px lightblue;
+}
+
+input:hover{
+    background-color: aliceblue;
+    border: none;
+}
+
+.home-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen  and (max-width:600px){
+    .home-container{
+        grid-column: 1fr ;
+    }
+    .home-card{
+        flex-direction: column;
+    }
+}
